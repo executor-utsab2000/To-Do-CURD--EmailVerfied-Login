@@ -1,0 +1,90 @@
+.userprofile {
+    width: 100vw;
+    height: 100vh;
+    background-color: #d4a373;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.userprofile>.contentContainer {
+    background-color: #faedcd;
+    width: 40vw;
+    min-width: 21rem;
+    min-height: 5rem;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    padding: 1rem;
+}
+
+
+
+.userprofile>.contentContainer .imageContainer {
+    position: relative;
+    top: -4rem;
+    background-color: white;
+    height: 8rem;
+    width: 8rem;
+    border-radius: 50%;
+    /* border: 1px solid black; */
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.userprofile>.contentContainer .imageContainer > img {
+    height: 8rem;
+    width: 8rem;
+    object-fit: contain;
+}
+
+
+.userprofile>.contentContainer .userName{
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 800;
+    letter-spacing: 1px;    
+    text-transform: capitalize;
+}
+
+.userprofile>.contentContainer .gender{
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 800;    
+}
+
+.userprofile>.contentContainer .highestExpense , 
+.userprofile>.contentContainer .mostExpense{
+    box-sizing: border-box;
+    padding: 1.5rem;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* text-align: center; */
+    /* font-size: 1.6rem; */
+    font-weight: 800;    
+}
+
+
+.userprofile>.contentContainer button{
+    width: 10rem;
+    padding: 0.5rem ;
+    border: 0;
+    outline: 0;
+    background-color: red;
+    color: yellow;
+    font-weight: 700;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+}
+
+.userprofile .deleteAll button{
+width: 100%;
+background-color:#ffb703 ;
+color: red;
+}

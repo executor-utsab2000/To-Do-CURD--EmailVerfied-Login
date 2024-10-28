@@ -1,0 +1,23 @@
+.header {
+    background-color: #faedcd;
+    font-size: 1.3rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .header .titleLogo img {
+    height: 5rem !important;
+  }
+  .header .userLogo {
+    margin: auto 0;
+  }
+  .header .userLogo img {
+    height: 50px !important;
+    width: 51px !important;
+    border-radius: 50%;
+  }
+  .header .userLogo .dropdown-item {
+    font-weight: 700;
+    font-size: 0.8rem;
+  }
+  

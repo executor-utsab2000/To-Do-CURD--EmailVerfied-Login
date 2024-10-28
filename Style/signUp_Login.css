@@ -1,0 +1,70 @@
+body {
+  overflow-x: hidden;
+  background-image: url('../Images/bgLogin.jpg');
+}
+
+.loginSignUp {
+  height: 100vh;
+  width: 100vw;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginSignUp .cardContainer {
+  padding: 1.5rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 20px;
+  background-color: #edede9;
+  width: 50vw;
+  max-width: 40rem;
+  min-width: 350px;
+}
+
+.loginSignUp .cardContainer .button button {
+  margin: 0.3rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  width: 17vw;
+  min-width: 8.5rem;
+  font-weight: 700;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+  color: black;
+  padding: 0.8rem 0;
+}
+
+.loginSignUp .cardContainer .formContainer {
+  margin-top: 2rem;
+}
+
+.loginSignUp .cardContainer .formContainer label {
+  font-weight: 800;
+  font-size: 0.9rem;
+}
+
+.loginSignUp .cardContainer .formContainer .inputs,
+.loginSignUp .cardContainer .formContainer button {
+  width: 100%;
+  padding: 0.5rem;
+  border: 0;
+  outline: 0;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+}
+
+.loginSignUp .cardContainer .formContainer button {
+  background-color: #6a994e;
+}
+
+.loginSignUp .forgotPassLink {
+  font-weight: 700;
+  font-size: 0.7rem;
+}
+
